@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:gravity="center_vertical"
+    android:layout_marginBottom="8dp"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_height="50dp"
+        android:layout_width="50dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/dic" />
+    <TextView
+        android:id="@+id/mainBigText01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#441b16"
+        android:letterSpacing="0.01"
+        android:lineSpacingExtra="6sp"
+        android:text="요리"
+        />
+
+    <TextView
+        android:id="@+id/mainSmallText01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="8sp"
+        android:textColor="#441b16"
+        android:letterSpacing="0.01"
+        android:lineSpacingExtra="4sp"
+        android:text="일류쉐프 따라잡기"
+        />
+</LinearLayout>
